@@ -17,6 +17,15 @@ public class Lab008_Variables {
         int this_is_a_very_long_variable_name_54567654 =89;////allowed but avoid using it like this
         int _2=123;//allowed
 
+        System.out.println("Smita"+'\r'+"V");
+        String first_name="Smita";
+        String last_name="V";
+        int c=10; int b=10;
+        System.out.println(first_name + last_name + c + b);
+        System.out.println(c + b+ first_name+last_name);
+
+
+
         //int enum = 10;//not allowed, as enum is a keyword'
         int Enum = 10;//allowed
         //int pramod datta = 40;//Not allowed
